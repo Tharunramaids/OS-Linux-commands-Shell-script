@@ -201,25 +201,25 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![grepfile](./img/04-cat-grepfile5.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![grepfile](./img/04-cat-grepfile6.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-
+![grepfile](./img/04-cat-grepfile7.png)
 egrep l{2} newfile
 ## OUTPUT
 
-
+![grepfile](./img/04-cat-grepfile8.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![grepfile](./img/04-cat-grepfile9.png)
 
 cat > file23
 ```
@@ -237,80 +237,80 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile1.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![grepfile](./img/05-cat-edfile2.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile3.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-
+![grepfile](./img/05-cat-edfile4.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile5.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![grepfile](./img/05-cat-edfile6.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile7.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-
+![grepfile](./img/05-cat-edfile8.png)
 
 seq 10 
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile9.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-
+![grepfile](./img/05-cat-edfile10.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-
+![grepfile](./img/05-cat-edfile11.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile12.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile13.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile14.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
+![grepfile](./img/05-cat-edfile15.png)
 
 
 sed -n '2,4{s/$/*/;p}' file23
-
+![grepfile](./img/05-cat-edfile16.png)
 
 #Sorting File content
 cat > file21
@@ -323,7 +323,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![grepfile](./img/06-cat-sortfile.png)
 
 cat > file22
 ```
@@ -336,13 +336,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![grepfile](./img/06-cat-uniqfile.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![grepfile](./img/06-cat-combine.png)
 
 cat < urllist.txt
 ```
@@ -359,18 +360,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![grepfile](./img/07-cat-urfile1.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-
+![grepfile](./img/07-cat-urfile2.png)
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![grepfile](./img/07-cat-urfile3.png)
 
 mkdir backupdir
  
