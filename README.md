@@ -628,7 +628,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-
+![grapfile](./img/10-cat-11.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -677,7 +677,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
+![grapfile](./img/10-cat-12.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -705,7 +705,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![grapfile](./img/10-cat-13.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -721,7 +721,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![grapfile](./img/10-cat-14.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -740,7 +740,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ## output
+ ![grapfile](./img/10-cat-15.png)
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -755,7 +756,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## output
+![grapfile](./img/10-cat-16.png)
  
 cat untiltest.sh 
 ```bash
@@ -769,7 +771,7 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+ ![grapfile](./img/10-cat-17.png)
  
 cat forin1.sh 
 ```bash
@@ -782,7 +784,7 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ ![grapfile](./img/10-cat-18.png)
  
 cat forin2.sh 
 ```bash
@@ -795,7 +797,7 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+ ![grapfile](./img/10-cat-19.png)
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -808,7 +810,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+ ![grapfile](./img/10-cat-19.png)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -819,7 +822,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ ![grapfile](./img/10-cat-20.png)
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -832,6 +836,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+ ![grapfile](./img/10-cat-18.png)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -853,7 +859,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![grapfile](./img/10-cat-21.png)
 
 cat forctype.sh 
 ```bash
