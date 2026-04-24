@@ -873,7 +873,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![grapfile](./img/11-cat-11.png)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -886,7 +886,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![grapfile](./img/11-cat-12.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -904,7 +904,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![grapfile](./img/11-cat-13.png)
  
 cat forbreak.sh 
 ```bash
@@ -926,6 +926,8 @@ $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
  
+ ![grapfile](./img/11-cat-14.png)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -946,7 +948,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+  ![grapfile](./img/11-cat-14.png)
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -960,7 +963,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![grapfile](./img/11-cat-16.png)
 
  cat exread1.sh
 ```bash
@@ -972,7 +975,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
-
+![grapfile](./img/11-cat-16.png)
 
 
 $ ./exread1.sh 
@@ -995,10 +998,11 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
+ ![grapfile](./img/12-cat-11.png)
  ./funcex.sh 1 2
 
- 
+  ![grapfile](./img/12-cat-12.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1011,7 +1015,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![grapfile](./img/13-cat-11.png)
+
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1029,6 +1034,8 @@ $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
  
+![grapfile](./img/13-cat-11.png)
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1042,7 +1049,8 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- 
+ ![grapfile](./img/13-cat-11.png)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1072,7 +1080,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![grapfile](./img/13-cat-12.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1099,7 +1107,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![grapfile](./img/13-cat-13.png)
 
 # RESULT:
 The Commands are executed successfully.
