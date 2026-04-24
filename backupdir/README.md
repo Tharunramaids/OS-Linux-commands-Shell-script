@@ -344,7 +344,6 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 ![grepfile](./img/06-cat-combine.png)
-
 cat < urllist.txt
 ```
 www. yahoo. com
@@ -360,18 +359,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![grepfile](./img/07-cat-urfile1.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![grepfile](./img/07-cat-urfile2.png)
+
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![grepfile](./img/07-cat-urfile3.png)
+
 
 mkdir backupdir
  
@@ -381,21 +380,20 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-![grepfile](./img/08-cat-back.png)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![grepfile](./img/07-cat-backfile.png)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![grepfile](./img/09-cat-back.png)
-
+ 
 gunzip backup.tar.gz
 ## OUTPUT
 
-![grepfile](./img/09-cat-gun.png)
+ 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -404,7 +402,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-![grepfile](./img/09-cat-grap%20file.png)
+
  
 cat << stop > herecheck.txt
 ```
@@ -416,7 +414,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-![grepfile](./img/09-cat-file.png)
+
 
 cat < scriptest.sh 
 ```bash
@@ -454,25 +452,24 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![grepfile](./img/09-cat-scrip.png)
+
  
 ls file1
 ## OUTPUT
-![grepfile](./img/09-cat-11.png)
+
 echo $?
 ## OUTPUT 
-![grepfile](./img/09-cat-12.png)
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- ![grapfile](./img/09-cat-12.png)
+ 
 abcd
  
 echo $?
  ## OUTPUT
- ![grapfile](./img/09-cat-13.png)
+
 
  
 # mis-using string comparisons
@@ -504,14 +501,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-![grapfilr](./img/09-cat-15.png)
+
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-![grapfile](./img/09-cat-14.png)
+
 
 # check file ownership
 cat < psswdperm.sh 
@@ -538,7 +535,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-![grapfile](./img/09-cat-16.png)
+
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -584,7 +581,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-![grapfile](./img/09-cat-17.png)
+
 
 
 # using numeric test comparisons
