@@ -53,11 +53,11 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- ![cmpfile3](./img/01-cat-cmpfile.png)
+ ![commfile3](./img/01-cat-cmpfile.png)
 
 comm file1 file2
  ## OUTPUT
-![commfile4](./img/01-cat-commfile.png)
+![cmpfile4](./img/01-cat-commfile.png)
  
 diff file1 file2
 ## OUTPUT
