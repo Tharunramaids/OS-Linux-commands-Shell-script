@@ -61,7 +61,7 @@ comm file1 file2
  
 diff file1 file2
 ## OUTPUT
-
+![difffile5](./img/01-cat-difffile.png)
 
 #Filters
 
@@ -85,16 +85,17 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![cutfile6](./img/01-cat-cutfile1.png)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+![cutfile7](./img/01-cat-cutfile1file22.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![cutfile8](./img/02-cat-cutfile22.png)
 
 
 cat < newfile 
